@@ -10,4 +10,8 @@
 clear, clc, close; % Clearing memory, console and closing figure.
 
 % s = 1^2 + 2^2 + 3^2 + 4^2 + 5^2
-s = sum( (1:5).^2 );
+s = 0;
+for i = 1:5
+	s = s + i^2;
+end
+fprintf('The sum is %g.\n', s);
