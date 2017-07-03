@@ -39,7 +39,7 @@ function y = kastbana(x, theta)
 %           Beräknar höjden av ett objekt vid varje tidpunkt enl. en
 %           kastbana.
 %   Example:
-%           y = areaofcircle(linspace(0,10), 15)
+%           y = kastbana(linspace(0,10), 15)
 	t = theta * pi/180;
 	v0 = 10; y0 = 1.85; g = 9.81;
 	a = g / ( 2 * v0^2 * cos(t)^2 );

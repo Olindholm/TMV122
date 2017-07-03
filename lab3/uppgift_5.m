@@ -14,7 +14,7 @@ a = 0; b = 2*pi;
 t = linspace(a, b);
 
 % Creating an array of 4 angles,
-% one for each corner of the inscribed circle.
+% one for each corner of the inscribed square.
 n = (1:2:7) * pi / 4;
 
 x = @ (t) ( cos(t) );
