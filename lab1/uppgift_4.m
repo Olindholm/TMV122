@@ -23,7 +23,7 @@ grid on;
 % Reads cursor inputs from the graph.
 % Executing each input, looking for nearby zeros.
 [xinput, yinput] = ginput();
-for i = 1:size(xinput)
+for i = 1:length(xinput)
 	x0 = xinput(i);
 	
 	xzero = fzero(f, x0);
